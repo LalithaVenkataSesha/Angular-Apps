@@ -1,0 +1,6 @@
+<div class="card products">
+    <label>{{product.name}}</label>
+    <label>{{product.price | currency:'INR'}}</label>
+    <label>Quantity:</label><input type="number" [ngModel]="product.Quantity" />
+    <app-productimage></app-productimage>
+</div>
